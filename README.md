@@ -2,7 +2,7 @@
 
 ------
 
-**Note**: To immediately jump into OS specific hardware and software configuration [visit the wiki pages](https://github.com/mwickert/SP-Comm-Tutorial-using-scikit-dsp-comm/wiki).
+**Note**: To immediately jump into OS specific hardware and software configuration [visit the wiki pages](wiki/).
 
 ------
 
