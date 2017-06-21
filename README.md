@@ -25,7 +25,7 @@ This project provides the set-up instructions and content needed for the Scipy 2
 * The following Scipy packages are required: `numpy`, `matplotlib`, `scipy`, `ipython`, `pyqt`, and `jupyter`, as well as related dependencies; with the full install of Anaconda you are good, less the packages you install under the hardware set-up
 * PIP install (*pending* conda install) `scikit-dsp-comm`; this is preferred for the tutorial, but I will likely have the modules locally available in the folders where you will do hands-on work during the tutorial
 
-### Cloning the this Repo
+### Cloning this Repo
 
 * Clone this repo to some convenient location on your PC: `git https://github.com/mwickert/SP-Comm-Tutorial-using-scikit-dsp-comm.git`. This will place a directory structure for testing the hardware and also all the folders which contain the lecture material and Jupyter notebooks for hands-on exercises
 
