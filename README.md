@@ -23,7 +23,10 @@ This project provides the set-up instructions and content needed for the Scipy 2
 * I recommend using Anaconda as your Python base, its ability to use virtual environments
 * * Note a virtual environment is however not included in the repo
 * The following Scipy packages are required: `numpy`, `matplotlib`, `scipy`, `ipython`, `pyqt`, and `jupyter`, as well as related dependencies; with the full install of Anaconda you are good, less the packages you install under the hardware set-up
-* PIP install (*pending* conda install) `scikit-dsp-comm`; this is preferred for the tutorial, but I will likely have the modules locally available in the folders where you will do hands-on work during the tutorial
+* PIP install (*pending* conda install) `scikit-dsp-comm`
+  * Option 1: Independent of having the repo cloned on your system you may `pip install scikit-dsp-comm1`; 
+  * Option 2: With a bash shell, command prompt, or power shell sitting at the location of the clone  `pip install -e .`; This is known as an *editble install*, which means if you pull new versions in to the local repo you can quickly reinstall the changes. **This is recommended** for the tutorial, as updates may come on Monday evening or Tuesday morning of the conference. I will use *Slack* to alert you.
+  * To import the package, or portions of it, use for example: `import sk_dsp_comm.sigsys as ss`
 
 ### Cloning this Repo
 
