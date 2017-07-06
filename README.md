@@ -45,6 +45,6 @@ This project provides the set-up instructions and content needed for the Scipy 2
 * At the end of the installation process you will have the opportunity to test you install using content from the `hardware_configuration` folder
 
 
-## Extra Pyaudio Interface Tools
+### Extra Pyaudio Interface Tools
 
 ![Cables and generator app](images/PyAudio_hardware_interconnect.png)  
