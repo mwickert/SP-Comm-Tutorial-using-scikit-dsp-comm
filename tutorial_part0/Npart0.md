@@ -100,7 +100,7 @@
 
 * Processing software defined radio (SDR) signals using multi-rate DSP
 
-![RTL-SDR + Rx Block Diagram](images/RTL_SDR_Rx_Block.png)
+![RTL-SDR + Rx Block Diagram](images/RTL-SDR_Rx_Block.png)
 
 * Receiving frequency-Shift Key (FSK) digital modulation from Arduino-based FM radio transmitter
 
