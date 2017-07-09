@@ -1,6 +1,6 @@
 ![title](images/part0_title@300dpi.png)
 
-> Reading the PDF version of this `markdown` document is best, unless you have say [Typora](https://typora.io) installed. The graphics were created at high resolution.
+> Reading the PDF version of this `markdown` document is best, unless you have say [Typora](https://typora.io) installed. The equations will be properly rendered.
 
 # Introduction and Session Overview
 
@@ -100,7 +100,7 @@
 
 * Processing software defined radio (SDR) signals using multi-rate DSP
 
-![RTL-SDR + Rx Block Diagram](images/RTL-SDR_Rx_Block.png)
+![RTL-SDR + Rx Block Diagram](images/RTL_SDR_Rx_Block.png)
 
 * Receiving frequency-Shift Key (FSK) digital modulation from Arduino-based FM radio transmitter
 
