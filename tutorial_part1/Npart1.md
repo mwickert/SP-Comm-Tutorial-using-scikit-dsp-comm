@@ -6,12 +6,7 @@
   * If you have an electrical engineering background you have studied this subject one upoin a time
   * For others this may be totally new, but the concepts has similarities to other disciplines 
 
-##Signals
-* If you have an electrical engineering background the term *signal and systems* will be familiar and maybe brings back bad memories
-* ​
-
-
-#Basic Signals
+## Basic Signals
 * What are signals anyway?
 
   * From a physics perspective they may occur naturally, e.g., a beating heart or wind velocity can both be measured by a *transducer* and converted to an electrical signal which can then be *digitized* by an analog-to-digital converter (DAC);
@@ -41,7 +36,7 @@
 
 * The above figure shows us that the frequency of a discrete-time sinusoid is not unique, since as $f_0$ is increased above $f_s/2$, know as the folding frequency, the signal oscillation rate comes back down, e.g. attempting to set $f_0 = 3f_s/4$ produces the same signal (to within a phase shift) as setting $f_0 = f_s/4$
 
-* > This behavior is known as aliasing, and can be managed so long as the sampling rate, $f_s$ is greater than the highest frequency present in the sampled analog signal $x_a(t)$
+> This behavior is known as aliasing, and can be managed so long as the sampling rate, $f_s$ is greater than the highest frequency present in the sampled analog signal $x_a(t)$
 
 * If you extend the notion of aliasing the sampled sinusoid frequency from $f_s/2 <= f_0 <= f_s$ to $0 <= f_0 <= f_s/2$ to higher frequency bands, you end up with the diagram shown below:
 

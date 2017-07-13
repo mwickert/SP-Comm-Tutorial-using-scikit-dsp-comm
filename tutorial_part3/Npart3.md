@@ -41,24 +41,16 @@ $$
 
 * Phase modulation encompasses frequency modulation (FM) as well, since the two are related by differentiation/integration, e.g.,
 
-* $$
-  \begin{align}
+$$
+\begin{align}
   	\phi(t) &= \text{Phase Deviation of the Carrier in radians} \\
   	\frac{1}{2\pi}\cdot\frac{d\phi(t)}{dt} &= \text{Frequency Deviation in Hz of the carrier}
   \end{align}
-  $$
-
-
-
-
-
-
-
-
+$$
 
 ### Carrier Demodulation in Python with the RTL-SDR
 
-* > **Demodulation**: Undoing at the receiver what was done at the transmitter to recover the data bits or analog signal
+> **Demodulation**: Undoing at the receiver what was done at the transmitter to recover the data bits or analog signal
 
 * As a quick review, an FM modulated carrier applies the message signal $m(t)$ to the carrier signal $x_c(t)$ such that the derivative of the phase deviation, $d\phi(t)/dt$, (also the frequency deviation) is proportional to the message:
 
@@ -103,7 +95,7 @@ $$
 
 * In DSP $x_I(t) \Rightarrow x_I(nT) = x_I[n]$ and $x_Q(t)\rightarrow x_Q(nT) = x_Q[n]$, where $T$ is the sample spacing and $1/T = f_s$ is the sampling rate. The derivatives, $x_I^\prime(t)$ and $x_Q^\prime(t)$, are approximated by the *backwards difference* $x_I[n] - x_I[n-1]$ and $x_Q[n] - x_Q[n-1]$ respectively
 
-* Inside `rtlsdr_helper` this is impolkemented in `y = discrim(x)` as:
+* Inside `rtlsdr_helper` this is implemented in `y = discrim(x)` as:
 
 ```python
   def discrim(x):
@@ -152,6 +144,8 @@ $$
 
 
 ### Narrowband FM NOAA Reception at 162.400 MHz
+
+* For the tutorial we are interested in Austin, so tune your RTL-SDR to 162.400
 
 ![NOAA TX](images/NOAA_Tx.png)
 

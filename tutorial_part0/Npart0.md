@@ -111,15 +111,15 @@
 * The use PyAudio to record your speech is optional, as test vectors are provided
 * The primary objective is to use *butt splicing* via the `numpy` function `reshape()` to slow down and speed up the playback of a speech array without shifting the pitch
 
-## Slow Down Playback Approach
+## Speedup Down Playback Approach
 
-Repeat small slices of the speech ndarray as shown below:
+Repeat small slices of the speech `ndarray` as shown below:
 
 ![slow down speech](images/Speed_Up_Speech.png)
 
-## Speedup Playback Approach
+## Slowdown Playback Approach
 
-Remove small slices of the speech ndarray as shown below:
+Remove small slices of the speech `ndarray` as shown below:
 
 ![speed up speech](images/Slow_Down_Speech.png)
 
