@@ -154,3 +154,18 @@ $$
 ![FSK Demod Block](images/FSK_Block.png)
 
 > Move to working with the hardware using various Jupyter notebooks
+
+## Single-Sideband Communication Simulation 
+
+* Various analog communication systems can be modeled and simulated with `scimitar-dsp-comm`
+* A course project is included in the Part3: [Project1](5625_project1.pdf)
+
+# Digital Communications Simulation
+
+* In the realm of digital communication system simulation, there are many building blocks available in `scikit-dsp-comm`
+* A quick walk through of some of this capability can be found in the PDF document [Project 2](5625_project2.pdf) 
+
+![Detailed Digital Comm System Block](images/Digital_Comm_Block.png)
+
+* A corresponding Jupyter notebook, which was not convered during the tutorial is [Comm_Systems.ipynb](Comm_Systems.ipynb)
+
