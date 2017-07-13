@@ -15,6 +15,8 @@ git clone https://github.com/mwickert/SP-Comm-Tutorial-using-scikit-dsp-comm.git
 
 This project provides the set-up instructions and content needed for the Scipy 2017 tutorial on signal processing and communications using the `scikit-dsp-comm` package. To get the most out of this tutorial you will want to take the time to install and configure both software and hardware interface drivers for the [RTL-SDR](http://www.rtl-sdr.com/) low-cost software defined radio platform and [Pyaudio](https://people.csail.mit.edu/hubert/pyaudio/).
 
+> **New and Updated 7/12/2017**: As promised I have updated and added some new files, including some embedded solutions.
+
 > **New 7/11/2017**: The final push of content for Part3 is done. There are large binary files to pull down to insure you have waveform data to process should the RTL-SDR dongle not work properly for you. Get this ASAP, as the network may be slow at the start of the tutorial. 
 
 > **New 7/8/2017 package install command line**: The two new modules `pyaudio_helper.py` and `rtlsdr_helpr.py` have dependencies that will not be satisfied if you do not have the hardware interfaces installed. Having these dependencies met is not a show stopper as far as the tutorial goes. The packaging has been reconfigured to accommodate this condition, but the pip install command line must now be: `pip install -e .[helpers]` from the location of the package repo.
