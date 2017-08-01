@@ -19,7 +19,7 @@ With the terminal in the root directory of the cloned repo perform an editable p
 $ pip install -e .[helpers]
 ```
 
-On Windows the binaries needed for the `pyaudio` should install, but on on other platforms you will have to do some more work (Conda Forge install pending atthe close of Scipy 2017 sprints). All the capability of the package is available less `pyaudio` and the RTL-SDR radio with doing any special installations. See the wiki pages for more information.
+On Windows the binaries needed for the `pyaudio` should install, but on on other platforms you will have to do some more work (Conda Forge install pending at the close of Scipy 2017 sprints). All the capability of the package is available less `pyaudio` and the RTL-SDR radio with doing any special installations. See the wiki pages for more information.
 
 ------
 
