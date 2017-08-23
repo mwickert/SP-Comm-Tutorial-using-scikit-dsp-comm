@@ -19,7 +19,7 @@ With the terminal in the root directory of the cloned repo perform an editable p
 $ pip install -e .[helpers]
 ```
 
-On Windows the binaries needed for the `pyaudio` should install, but on on other platforms you will have to do some more work (Conda Forge install pending at the close of Scipy 2017 sprints). All the capability of the package is available less `pyaudio` and the RTL-SDR radio with doing any special installations. See the wiki pages for more information.
+On Windows the binaries needed for the `pyaudio` should install, but on other platforms you will have to do some more work (Conda Forge install pending at the close of Scipy 2017 sprints). All the capability of the package is available less `pyaudio` and the RTL-SDR radio with doing any special installations. See the wiki pages for more information.
 
 ------
 
@@ -27,7 +27,9 @@ On Windows the binaries needed for the `pyaudio` should install, but on on other
 
 This project provides the set-up instructions and content needed for the Scipy 2017 tutorial on signal processing and communications using the `scikit-dsp-comm` package. To get the most out of this tutorial you will want to take the time to install and configure both software and hardware interface drivers for the [RTL-SDR](http://www.rtl-sdr.com/) low-cost software defined radio platform and [Pyaudio](https://people.csail.mit.edu/hubert/pyaudio/).
 
- `pip install -e .[helpers]` from the location of the package repo.
+ `pip install -e .[helpers]` from the location of the package repo, with helpers
+
+ `pip install -e .` from the location of the package repo, without helpers pyAudio/RTL-SDR
 
 > **Newly added**: To drive signals into PyAudio you should have a 3.5 mm audio cable to interface  your cell phone to your PCs audio input jack (perhaps on an [external sound card](https://www.amazon.com/Sabrent-External-Adapter-Windows-AU-MMSA/dp/B00IRVQ0F8/ref=sr_1_3?s=electronics&ie=UTF8&qid=1499267425&sr=1-3&keywords=USB+audio) ) . Add to this a signal generator app for your cell phone. On the iPhone I like using (https://www.cateater.com/signalgenerator/). Screen shots of these items are at the bottom of this page.
 
